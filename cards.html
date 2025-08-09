@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .gradient {
+            background: linear-gradient(to right, red, blue, cyan, pink, yellow, orange, violet);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;      
+        }
+        #courses {
+            border: 1px solid black;
+            padding: 20px;
+        }
+        .custom-h-250{
+            height: 250px;
+            width: 100%;
+            object-fit: contain;
+            background: #eee;
+            border-radius: 9px;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Vijay</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./cards.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>  
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">One</a></li>
+                    <li><a class="dropdown-item" href="#">two</a></li>
+                    <li><a class="dropdown-item" href="#">three</a></li>
+                </ul>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+        <h3 class="text-center m-2 gradient">Cards Section</h3>
+    <main class="d-flex justify-content-center align-items-center">
+         <section id="courses" class="container m-3" style="border: 1px solid black;">
+            <div class="row"> 
+                <div class="col-md-4 col-sm-12 col-12 mb-3">
+                    <div class="card">
+                        <img src="./images/Pic-0.jpg" class="custom-h-250" alt="">
+                        <div class="card-body p-1">
+                            <img src="" alt="">
+                            <h4 class="card-title">Iron Man</h4>
+                            <p>Rober Downey jr played as Iron Man</p>
+                            <button class="btn btn-primary">Button-1</button>
+                            <button class="btn btn-info">Button-2</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-12 mb-3">
+                    <div class="card">
+                        <img src="./images/Pic-2.jpg" class="custom-h-250" alt="">
+                        <div class="card-body p-1">
+                            <img src="" alt="">
+                            <h4 class="card-title">Captain America</h4>
+                            <p>Rober Downey jr played as Iron Man</p>
+                            <button class="btn btn-primary">Button-1</button>
+                            <button class="btn btn-info">Button-2</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-12 mb-3">
+                    <div class="card">
+                        <img src="./images/Pic-3.jpg" class="custom-h-250" alt="">
+                        <div class="card-body p-1">
+                            <img src="" alt="">
+                            <h4 class="card-title">Thor</h4>
+                            <p>Rober Downey jr played as Iron Man</p>
+                            <button class="btn btn-primary">Button-1</button>
+                            <button class="btn btn-info">Button-2</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-12 mb-3">
+                    <div class="card">
+                        <img src="./images/Pic-4.jpg" class="custom-h-250" alt="">
+                        <div class="card-body p-1">
+                            <img src="" alt="">
+                            <h4 class="card-title">Hulk</h4>
+                            <p>Rober Downey jr played as Iron Man</p>
+                            <button class="btn btn-primary">Button-1</button>
+                            <button class="btn btn-info">Button-2</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-12 mb-3">
+                    <div class="card">
+                        <img src="./images/Pic-5.jpg" class="custom-h-250" alt="">
+                        <div class="card-body p-1">
+                            <img src="" alt="">
+                            <h4 class="card-title">Hawkeye</h4>
+                            <p>Rober Downey jr played as Iron Man</p>
+                            <button class="btn btn-primary">Button-1</button>
+                            <button class="btn btn-info">Button-2</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-12 mb-3">
+                    <div class="card">
+                        <img src="./images/Pic-6.jpg" class="custom-h-250" alt="">
+                        <div class="card-body p-1">
+                            <img src="" alt="">
+                            <h4 class="card-title">Black Widow</h4>
+                            <p>Rober Downey jr played as Iron Man</p>
+                            <button class="btn btn-primary">Button-1</button>
+                            <button class="btn btn-info">Button-2</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+   <!-- script js for bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
